@@ -8,8 +8,8 @@ def partition(x,pivot_index=0):
         if x[j+1]<x[0]:
             x[j+1],x[i+1]=x[i+1],x[j+1]
             i+=1
-        x[0],x[i]=x[i],x[0]
-        return x,i
+    x[0],x[i]=x[i],x[0]
+    return x,i
 
 
 def RSelect(x,k):
